@@ -1,0 +1,285 @@
+.commodity-information {
+  padding-top: 120px;
+}
+.commodity-information,
+.shop .shop-title .title-inner,
+.shop .shop-tab {
+  margin: 0 auto;
+  width: 1200px;
+}
+/* shop-title部分样式 */
+.shop .shop-title {
+  background-color: rgb(245, 245, 245);
+}
+.shop .shop-title .title-inner {
+  padding: 0 15px;
+  padding-top: 150px;
+  padding-bottom: 55px;
+}
+.shop .shop-title .title-inner h2 {
+  padding-bottom: 0;
+  text-align: left;
+  font-weight: 400;
+}
+.shop .shop-title .title-inner a {
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #7c7a7a;
+}
+.shop .shop-title .title-inner span {
+  display: block;
+  width: 1.5px;
+  height: 12px;
+  background-color: #7c7a7a;
+  margin: 7px 7px 0px 7px;
+}
+.shop .shop-title .title-inner .title-a {
+  margin-bottom: 16px;
+}
+/* commodity-information */
+.shop .commodity-information {
+  padding-bottom: 75px;
+  border-bottom: 1px solid #cacaca;
+}
+.shop .commodity-information .information-img .information-left > div {
+  margin-bottom: 10px;
+  padding: 0 15px;
+}
+.shop .commodity-information .information-img .information-right img {
+  margin: 0 15px;
+  background-image: linear-gradient(
+    0deg,
+    rgb(252, 253, 255) 0%,
+    rgb(245, 246, 250) 100%
+  );
+  display: none;
+}
+.shop .commodity-information .information-img .information-right img.active {
+  display: block;
+}
+.shop .commodity-information .information-all {
+  margin-left: 35px;
+}
+.shop .commodity-information .information-all h5 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 600;
+}
+.shop .commodity-information .information-all ul span::before {
+  font-size: 18px;
+}
+.shop .commodity-information .information-all ul span {
+  color: rgb(246, 102, 63);
+}
+.shop .commodity-information .information-all ul span.cha {
+  color: #a1a1a1;
+}
+.shop .commodity-information .information-all .df > span {
+  margin-left: 20px;
+  color: #a39f9f;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+.shop .commodity-information .information-all .price span {
+  display: block;
+  padding-top: 15px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #4a4a4a;
+}
+.shop .commodity-information .information-all p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #a39f9f;
+  font-weight: 300;
+  padding-right: 110px;
+  padding-bottom: 15px;
+}
+.shop .commodity-information .information-all .product-size {
+  padding-top: 16px;
+}
+.shop .commodity-information .information-all h6 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 1.6px;
+  padding-right: 20px;
+}
+.shop .commodity-information .information-all .product-color .color-all span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.shop
+  .commodity-information
+  .information-all
+  .product-color
+  .color-all
+  span:nth-child(1) {
+  background-color: rgb(162, 103, 73);
+}
+.shop
+  .commodity-information
+  .information-all
+  .product-color
+  .color-all
+  span:nth-child(2) {
+  background-color: rgb(168, 55, 22);
+}
+.shop .commodity-information .information-all .product-size ul {
+  margin-left: 30px;
+}
+.shop .commodity-information .information-all .product-size ul li {
+  transition: all 0.5s;
+  color: #7d7d7d;
+  border-color: rgb(235, 235, 235);
+
+  display: inline-block;
+  font-size: 11px;
+  line-height: 28px;
+  border: 1px solid rgb(235, 235, 235);
+  width: 38px;
+  height: 28px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.shop .commodity-information .information-all .product-size ul li.active {
+  background-color: rgb(255, 82, 53);
+  color: #ffffff;
+}
+.shop .commodity-information .information-all .product-size ul li:hover {
+  background-color: rgb(255, 82, 53);
+  color: #ffffff;
+}
+.shop .commodity-information .information-all .product-count > div {
+  margin-right: 20px;
+}
+.shop .commodity-information .information-all .product-count .quty {
+  border: 1px solid rgb(215, 215, 215);
+  width: 118px;
+  text-align: center;
+}
+.shop .commodity-information .information-all .product-count .quty span {
+  cursor: pointer;
+  line-height: 40px;
+  padding: 0 6px;
+}
+.shop .commodity-information .information-all .product-count .quty input {
+  width: 45px;
+  height: 40px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 18px;
+}
+.shop .commodity-information .information-all .product-count .add .trendsBtn {
+  width: 180px;
+  height: 42px;
+}
+.shop .commodity-information .information-all .product-count .add .trendsBtn a,
+.shop
+  .commodity-information
+  .information-all
+  .product-count
+  .add
+  .trendsBtn-fize {
+  line-height: 42px !important;
+}
+.shop .commodity-information .information-all .product-count .add .trendsBtn a,
+.shop .commodity-information .information-all .product-count .share span {
+  /* display: block; */
+  transition: all 0.5s;
+  line-height: 42px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.shop .commodity-information .information-all .product-count .share span:hover {
+  color: rgb(255, 82, 53);
+}
+.shop .commodity-information .information-all .product-count {
+  padding-top: 25px;
+}
+.shop .commodity-information .information-all .social-icon span::before {
+  font-size: 20px;
+}
+
+.shop .commodity-information .information-all .social-icon span {
+  margin-right: 10px;
+  color: rgb(159, 164, 175);
+  transition: all 0.3s;
+}
+.shop .commodity-information .information-all .social-icon span:hover {
+  color: rgb(255, 82, 53) !important;
+}
+/* description-area */
+.shop .shop-tab {
+  margin-bottom: 115px;
+}
+.shop .shop-tab .nav {
+  text-align: center;
+  justify-content: center;
+  padding-top: 65px;
+  padding-bottom: 55px;
+}
+.shop .shop-tab .nav li {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #9fa4af;
+  margin-left: 75px;
+  cursor: pointer;
+}
+.shop .shop-tab .nav li.active {
+  color: #4a4a4a;
+}
+.shop .shop-tab .nav li:first-child {
+  margin: 0;
+}
+.shop .shop-tab .main-out {
+  display: none;
+}
+.shop .shop-tab .main-out.active {
+  display: block;
+}
+.shop .shop-tab .nav-main {
+  justify-content: center;
+}
+.shop .shop-tab .nav-main .nav-left {
+  padding-right: 30px;
+}
+.shop .shop-tab .nav-main .nav-left p {
+  display: block;
+  width: 600px;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #898989;
+}
+.shop .shop-tab .nav-main .nav-right h6 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.shop .shop-tab .nav-main .nav-right {
+  border-left: 1px solid rgb(235, 235, 235);
+  width: 370px;
+  padding-left: 90px;
+}
+.shop .shop-tab .nav-main .nav-right ul li {
+  letter-spacing: -0.3px;
+  margin-left: 15px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #898989;
+  list-style: disc;
+}

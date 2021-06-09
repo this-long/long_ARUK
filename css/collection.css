@@ -1,0 +1,154 @@
+/* 下拉菜单部分样式 */
+.collection .container .toolbar {
+  padding-top: 110px;
+}
+.collection .container,
+.arrival-product {
+  width: 1200px;
+  margin: 0 auto;
+}
+.collection .container .toolbar .w {
+  font-size: 12px;
+  line-height: 29px;
+  color: #4a4a4a;
+  margin-right: 10px;
+}
+.collection .container .toolbar .tollbar-right {
+  margin-left: 30px;
+  margin-right: 25px;
+}
+.collection .container .toolbar .tollbar-right .comboBox {
+  width: 50px;
+}
+.collection .container .toolbar-all > span {
+  border: 1px solid rgb(243, 244, 246);
+  display: block;
+  width: 28px;
+  height: 20px;
+  text-align: center;
+  margin: auto 0;
+  margin-right: 10px;
+}
+.collection .container .toolbar span::before {
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+}
+
+/* 分页器部分样式 */
+.collection .container .toolbar {
+  justify-content: space-between;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.pager ul {
+  display: flex;
+}
+.pager ul li {
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  list-style: none;
+  color: #7c7a7a;
+  border: 1px solid rgb(243, 244, 246);
+  font-size: 10px;
+  margin: 0 5px;
+}
+.pager ul .ye.active {
+  color: white;
+  background-color: rgb(255, 82, 53);
+}
+
+/* 商品展示部分样式 */
+.collection .arrival-product {
+  flex-wrap: wrap;
+}
+.collection .arrival-product .arrival-thing {
+  padding-top: 45px;
+  width: 300px;
+  text-align: center;
+}
+.collection .arrival-product .arrival-thing .arrival-img {
+  margin: 0 auto;
+  width: 270px;
+  height: 300px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  border: 1px solid rgb(243, 244, 246);
+}
+.collection .arrival-product .arrival-thing .arrival-img img {
+  margin-top: -25px;
+  width: 270px;
+  height: auto;
+  transition: all 0.3s;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.collection .arrival-product .arrival-thing .arrival-operate .xiantiaoLi a {
+  font-size: 13px;
+  color: #292929;
+}
+.collection .arrival-product .arrival-thing .arrival-operate {
+  opacity: 0;
+  transition: all 0.5s;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  width: 270px;
+  height: 45px;
+  display: flex;
+  background-color: rgb(236, 248, 236);
+  padding-top: 15px;
+  justify-content: space-between;
+  padding: 12px 12px 20px 20px;
+}
+.collection .arrival-product .arrival-thing .arrival-operate li span {
+  padding: 0 5px;
+  cursor: pointer;
+}
+.collection .arrival-product .arrival-thing .arrival-operate li span:hover {
+  color: #ff5235;
+  font-weight: 500;
+}
+.collection .arrival-product .arrival-thing .arrival-details {
+  margin: 0 auto;
+  padding-top: 25px;
+  width: 300px;
+  text-align: center;
+}
+.collection .arrival-product .arrival-thing .arrival-details h5 {
+  transition: all 0.5s;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #4a4a4a;
+  margin-bottom: 8px;
+}
+.collection .arrival-product .arrival-thing .arrival-details h5:hover {
+  color: rgb(241, 142, 106);
+}
+.collection .arrival-product .arrival-thing .arrival-details div span::before {
+  font-size: 18px;
+  color: rgb(241, 142, 106);
+  line-height: 24px;
+}
+.collection .arrival-product .arrival-thing .arrival-details > span {
+  font-size: 16px;
+  line-height: 30px;
+  color: #a39f9f;
+  font-weight: 500;
+}
+.collection .arrival-product .arrival-thing .arrival-details span.nowPrice {
+  color: #4a4a4a;
+  padding-left: 10px;
+}
+.collection .trendsBtn {
+  margin-top: 120px;
+  margin-bottom: 115px;
+}

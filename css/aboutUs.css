@@ -1,0 +1,81 @@
+.about-main {
+  width: 1200px;
+  margin: 0 auto;
+}
+.about-main .about-who {
+  padding-top: 120px;
+}
+.about-area {
+  padding-top: 110px;
+}
+/* 主题内容 */
+/* about-who */
+.about-main .about-who .who-left,
+.about-main .about-who .who-right {
+  width: 600px;
+  padding: 0 15px;
+}
+.about-main .about-who .who-left h5 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #292929;
+  letter-spacing: 0.6px;
+  font-weight: 300;
+}
+.about-main .about-who .who-left p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #7c7a7a;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+.about-main .about-who .who-right {
+  text-align: center;
+}
+/* about-area */
+.about-area .service-widget {
+  padding: 0 15px;
+  width: 400px;
+}
+.about-area .service-widget .service-img {
+  margin-right: 20px;
+}
+.about-area .service-widget .service-span h5 {
+  font-size: 22px;
+  line-height: 37px;
+  color: #292929;
+  font-weight: 400;
+}
+.about-area .service-widget .service-span span {
+  font-size: 16px;
+  line-height: 26px;
+  color: #7c7a7a;
+  font-weight: 300;
+}
+/* about-bg */
+.about-main .about-bg {
+  margin-top: 120px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  height: 400px;
+  margin-bottom: 115px;
+}
+.about-main .about-bg .bg-inner {
+  position: relative;
+  width: 1170px;
+  height: 400px;
+  overflow: hidden;
+}
+.about-main .about-bg .bg-inner img {
+  transition: all 0.5s;
+  display: block;
+  width: 1170px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,103 @@
+/* 顶部导航部分 */
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 35px;
+  height: 100px;
+  background-color: rgb(245, 245, 245);
+  z-index: 33;
+}
+.navigation .container {
+  width: 1200px;
+  height: 24px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+.navigation .container > div {
+  padding: 0 15px;
+}
+.navigation .container .logo {
+  width: 200px;
+}
+.navigation .container .main-menu {
+  width: 700px;
+}
+.navigation .container .span-icon {
+  width: 300px;
+}
+.navigation .container .span-icon .icon-tianchongxing-::before {
+  font-size: 20px;
+  padding: 0 6px;
+  color: #000;
+}
+.navigation .container .span-icon .icon-wodedangxuan::before {
+  font-size: 16px;
+  padding: 0 6px;
+  color: #000;
+}
+.navigation .container .main-menu ul {
+  display: flex;
+  justify-content: flex-start;
+}
+.navigation .container .main-menu ul li {
+  margin: 0 14px;
+}
+.navigation .container .main-menu ul li a {
+  color: #292929;
+  font-size: 12px;
+  font-weight: 500;
+
+  transition: all 0.25s;
+}
+.navigation .container .main-menu ul li a:hover {
+  color: #ff5235;
+}
+.navigation .container .main-menu ul li div,
+div.xiantiao {
+  display: block;
+  width: 0;
+  margin: 0 auto;
+  height: 2px;
+  background-color: #ff5235;
+  transition: all 0.25s;
+}
+
+/* 置顶按钮部分 */
+
+.placement {
+  position: fixed;
+  right: 20px;
+  bottom: -100px;
+  width: 50px;
+  height: 50px;
+  margin-top: 300px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #000;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.placement.active {
+  opacity: 1;
+  visibility: visible;
+  bottom: 60px;
+  z-index: 2;
+}
+.placement span::before {
+  font-size: 30px;
+  font-weight: 200;
+  color: #ff5235;
+  transition: all 0.5s;
+}
+.placement:hover {
+  background-color: #ff5235;
+}
+.placement:hover span::before {
+  color: #fff;
+}
+/* html {
+  transition: scrollTop 0.5;
+} */

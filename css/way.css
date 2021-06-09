@@ -1,0 +1,201 @@
+/* 鼠标移入下划线部分 */
+.xiantiaoLi a {
+  transition: all 0.5s;
+}
+.xiantiaoLi a:hover {
+  color: #ff6935 !important;
+}
+.xiantiaoLi a .xian {
+  width: 0;
+  height: 2px;
+  background-color: #ff6935;
+  margin: 0 auto;
+  transition: all 0.3s;
+}
+/* 鼠标移入图片放大部分 */
+.bigImg img {
+  height: auto;
+  transition: all 0.3s;
+}
+
+/* 鼠标移入按钮特效部分 */
+.trendsBtn {
+  position: relative;
+  margin: 0 auto;
+  width: 180px;
+  background-color: rgb(246, 246, 246);
+  cursor: pointer;
+  overflow: hidden;
+}
+.trendsBtn-fize {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  font-weight: 300;
+  font-size: 14px;
+  width: 180px !important;
+  color: white;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: transparent;
+  z-index: 3;
+}
+.trendsBtn a {
+  font-weight: 300;
+  font-size: 14px;
+  display: block;
+  width: 180px;
+  color: white;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+}
+.trendsBtn a:hover {
+  color: #ff6935;
+}
+.trendsBtn .trendsBtn-left,
+.trendsBtn .trendsBtn-right {
+  position: absolute;
+  width: 90px;
+  height: 60px;
+  background-color: #ff6935;
+  top: 0;
+}
+.trendsBtn .trendsBtn-left {
+  transition: all 0.3s;
+  left: 0;
+}
+.trendsBtn .trendsBtn-right {
+  transition: all 0.3s;
+  right: 0;
+}
+
+/* home页倒计时部分 */
+
+ul.countdown {
+  width: 470px;
+  color: #7c7a7a;
+  list-style: none;
+  display: block;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+ul.countdown li {
+  display: inline-block;
+}
+
+ul.countdown li span {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+ul.countdown li.seperator {
+  font-size: 48px;
+  line-height: 50px;
+  vertical-align: top;
+  margin: 0 15px;
+}
+
+ul.countdown li p {
+  color: #a7abb1;
+  font-size: 14px;
+}
+
+/* 下拉菜单样式 */
+.comboBox {
+  position: relative;
+  width: 124px;
+}
+.comboBox .comboBox-inner {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid rgb(186, 186, 186);
+  height: 29px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #666666;
+  line-height: 29px;
+  padding: 0 6px;
+}
+.comboBox .comboBox-inner span {
+  display: none;
+}
+.comboBox .comboBox-inner span.active {
+  display: inline;
+}
+
+.comboBox ul {
+  display: none;
+  position: absolute;
+  top: 29px;
+  left: 0;
+  margin: 0;
+  padding: 0 6px;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 30.4px 1.6px rgba(204, 204, 223, 0.5);
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  z-index: 6;
+}
+.comboBox ul.active {
+  display: block;
+}
+.comboBox ul li {
+  font-weight: 300;
+  display: block;
+  list-style: none;
+  font-size: 16px;
+  line-height: 18px;
+  color: #4a4a4a;
+  padding-top: 10px;
+}
+.comboBox ul li.active {
+  display: none;
+}
+.comboBox ul li:hover {
+  background-color: rgb(247, 255, 241);
+}
+
+/* checkbox选中样式 */
+.checkboxMain input {
+  display: none;
+}
+.checkboxMain label {
+  display: flex !important;
+  font-size: 14px;
+  line-height: 25px;
+  color: #a1a1a1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.checkboxMain label span {
+  position: relative;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #ccc;
+  margin-top: 3px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.checkboxMain label .dian {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -5px;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255, 82, 53);
+  border-radius: 50%;
+}
+.checkboxMain label .dian.active {
+  display: none !important;
+}

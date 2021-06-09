@@ -1,0 +1,161 @@
+.calculator-main {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 115px;
+  padding-bottom: 105px;
+}
+.calculator-main > div {
+  width: 600px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.calculator-main input {
+  width: 100%;
+  background-color: rgb(246, 247, 251);
+  border: none;
+  height: 45px;
+  padding-left: 10px;
+  outline: none;
+}
+
+/* calculator-main */
+/* 公共组件 */
+.calculator-main label {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #a1a1a1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 8px;
+}
+.calculator-main select {
+  font-size: 14px;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-weight: 300;
+  outline: none;
+  background-color: rgb(246, 247, 251);
+  border: none;
+  height: 45px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.calculator-main select option {
+  font-size: 14px;
+  color: #7d7d7d;
+  font-weight: 300;
+}
+.calculator-main .details .df > div:last-child {
+  margin-left: 30px;
+}
+.calculator-main form > div {
+  padding-top: 30px;
+}
+.calculator-main .w300 {
+  width: 270px;
+}
+
+.calculator-main .calculator-left .details .country {
+  padding-top: 0px;
+}
+.calculator-main .calculator-left .checkout p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #7d7d7d;
+  margin-bottom: 15px;
+}
+.calculator-main .calculator-left .checkout p a {
+  transition: all 0.5s;
+  color: #7d7d7d;
+}
+.calculator-main .calculator-left .checkout p a:hover {
+  color: #f26522;
+}
+
+.calculator-main .calculator-left .details h6 {
+  font-size: 24px;
+  line-height: 48px;
+  color: #292929;
+  font-weight: 400;
+  padding-bottom: 6px;
+}
+.calculator-main .calculator-left .details .order textarea {
+  width: 570px;
+  height: 200px;
+  resize: none;
+  font-size: 16px;
+  padding: 4px 4px 4px 10px;
+  background-color: rgb(246, 247, 251);
+  border: none;
+}
+
+/* calculator-right */
+.calculator-main .calculator-right {
+  padding: 35px 50px 55px 50px;
+}
+.calculator-main .calculator-right h6 {
+  padding-bottom: 18px;
+  font-size: 24px;
+  line-height: 48px;
+  color: #292929;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  border-bottom: 1px solid rgb(225, 225, 225);
+  text-align: center;
+}
+.calculator-main .calculator-right > span {
+  font-size: 18px;
+  line-height: 48px;
+  color: #363636;
+  font-weight: 400;
+}
+.calculator-main .calculator-right ul {
+  margin-bottom: 5px;
+}
+.calculator-main .calculator-right ul li {
+  font-size: 15px;
+  line-height: 34px;
+  color: #7d7d7d;
+  font-weight: 300;
+}
+.calculator-main .calculator-right ul li span,
+.calculator-main .calculator-right p span {
+  float: right;
+}
+.calculator-main .calculator-right > p {
+  font-size: 18px;
+  color: #363636;
+  line-height: 48px;
+  padding-top: 15px;
+  border-top: 1px solid #cacaca;
+}
+.calculator-main .calculator-right .manyCheck p {
+  padding-left: 25px;
+  padding-right: 65px;
+}
+.calculator-main .calculator-right .manyCheck span.iconfont {
+  border: none;
+  color: rgb(99, 99, 99);
+  line-height: 16px;
+  padding-right: 26px;
+}
+.calculator-main .calculator-right .manyCheck span.iconfont::before {
+  font-size: 20px;
+}
+
+.calculator-main .calculator-right button {
+  outline: none;
+  background-color: rgb(255, 82, 53);
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  text-align: center;
+  color: #f7f7f7;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border: none;
+  margin-top: 45px;
+}

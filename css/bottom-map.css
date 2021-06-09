@@ -1,0 +1,159 @@
+/* 顶部样式 */
+.bottom-map {
+  background-color: #f6f6f6;
+  padding-top: 120px;
+}
+.bottom-map .bottom-map-inner .top {
+  display: flex;
+  justify-content: flex-start;
+}
+.bottom-map .bottom-map-inner .top .foot-widget {
+  padding: 0 15px;
+  padding-bottom: 0;
+  width: 300px;
+}
+.bottom-map .bottom-map-inner .top .foot-widget.first {
+  width: 400px;
+  font-size: 15px;
+  line-height: 36px;
+  padding: 0 15px;
+  color: #7c7a7a;
+  font-weight: 300;
+  padding-top: 15px;
+}
+.bottom-map .bottom-map-inner .top .foot-widget.first span {
+  color: #ff5235;
+}
+.bottom-map .bottom-map-inner .top .foot-widget.first p {
+  font-size: 16px;
+  line-height: 28px;
+  padding-right: 65px;
+}
+.bottom-map .bottom-map-inner .top .foot-widget.first input {
+  outline: none;
+  margin-top: 30px;
+  width: 298px;
+  height: 52px;
+  padding-left: 25px;
+  border: 1px solid rgb(226, 231, 243);
+  background-color: rgb(255, 250, 249);
+  color: #7c7a7a;
+  font-size: 15px;
+}
+.bottom-map .bottom-map-inner .top .foot-widget.first .email {
+  position: relative;
+}
+.bottom-map .bottom-map-inner .top .foot-widget.first .email span {
+  position: absolute;
+  top: 50%;
+  margin-top: -3px;
+  right: 85px;
+}
+.bottom-map .bottom-map-inner .top .foot-widget.first .email span::before {
+  font-size: 20px;
+  color: #000;
+}
+.bottom-map .bottom-map-inner .top .foot-widget .logo {
+  padding-bottom: 30px;
+}
+.bottom-map .bottom-map-inner .top .foot-widget.last {
+  width: 200px;
+}
+.bottom-map .bottom-map-inner .top .foot-widget h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #4a4a4a;
+  line-height: 50px;
+  margin-bottom: 8px;
+}
+.bottom-map .bottom-map-inner .top .foot-widget ul {
+  padding-top: 8px;
+}
+.bottom-map .bottom-map-inner .top .foot-widget ul li {
+  display: block;
+}
+.bottom-map .bottom-map-inner .top .foot-widget ul li a {
+  color: #7c7a7a;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 300;
+  transition: all 0.5s;
+  text-align: center;
+}
+.bottom-map .bottom-map-inner .top .foot-widget ul li a:hover {
+  color: #ff5235;
+}
+div.xiantiao {
+  height: 1.5px;
+}
+.bottom-map .bottom-map-inner .top .foot-widget ul li:last-child .xiantiao {
+  height: 2px;
+}
+
+/* 底部样式 */
+.bottom-map .bottom-out {
+  display: block;
+  width: 100%;
+  margin-top: 80px;
+  border-top: 1px solid rgb(224, 227, 239);
+}
+
+.bottom-map .bottom-out .bottom {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #7c7a7a;
+  height: 70px;
+}
+.bottom-map .bottom-out .bottom > div {
+  padding: 0 15px;
+  height: 40px;
+  margin-top: 15px;
+}
+.bottom-map .bottom .copyright {
+  width: 400px;
+}
+.bottom-map .bottom-out .bottom .copyright span {
+  color: #ff5235;
+}
+.bottom-map .bottom .social-icon {
+  width: 500px;
+}
+.bottom-map .bottom .social-icon ul {
+  text-align: center;
+  display: flex;
+
+  justify-content: center;
+}
+.bottom-map .bottom .social-icon ul li {
+  margin: 0 5px;
+}
+.bottom-map .bottom .social-icon ul li a {
+  color: rgb(150, 157, 180);
+}
+.bottom-map .bottom .social-icon ul li a span::before {
+  font-size: 12px;
+}
+.bottom-map .bottom .policy {
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+}
+.bottom-map .bottom .policy .first {
+  position: relative;
+  margin-right: 55px;
+}
+.bottom-map .bottom .policy .first::after {
+  content: "";
+  position: absolute;
+  height: 16px;
+  width: 2px;
+  background-color: rgb(150, 157, 180);
+  left: 110px;
+  top: 12px;
+}
+/* AllEnd */

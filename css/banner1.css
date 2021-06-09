@@ -1,0 +1,31 @@
+.shop .shop-title {
+  background-color: rgb(245, 245, 245);
+}
+.shop .shop-title .title-inner {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding-top: 150px;
+  padding-bottom: 55px;
+}
+.shop .shop-title .title-inner h2 {
+  padding-bottom: 0;
+  text-align: left;
+  font-weight: 400;
+}
+.shop .shop-title .title-inner a {
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #7c7a7a;
+}
+.shop .shop-title .title-inner span {
+  display: block;
+  width: 1.5px;
+  height: 12px;
+  background-color: #7c7a7a;
+  margin: 7px 7px 0px 7px;
+}
+.shop .shop-title .title-inner .title-a {
+  margin-bottom: 16px;
+}

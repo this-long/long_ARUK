@@ -1,0 +1,191 @@
+/* 模态框的样式 */
+.look * {
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+.modal {
+  width: 785px;
+  box-shadow: rgba(204, 204, 223, 0.5) 0px 2px 30.4px 1.6px;
+  visibility: hidden;
+}
+.modal.active {
+  visibility: visible;
+}
+.look {
+  z-index: 999;
+}
+.look .btn-lg {
+  transition: all 0.3;
+  padding: 0;
+  line-height: 1;
+  border-radius: 0;
+  background-color: transparent;
+  color: #000;
+  border: none;
+}
+
+.look .btn-lg:hover {
+  background-color: transparent;
+  color: rgb(255, 105, 53);
+}
+
+/* .aixin {
+            width: 16px;
+            padding: 0;
+            height: 17px;
+            background-color: none;
+        } */
+
+.look .close span {
+  font-size: 20px;
+}
+
+.look .modal-header {
+  border: none;
+}
+
+.look .modal-body {
+  display: flex;
+  padding: 0%;
+}
+
+.look .modal-right h5 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #4a4a4a;
+}
+
+.look .modal-dialog {
+  width: 785px;
+}
+
+.look .modal-right .appraise {
+  display: flex;
+}
+
+.look .modal-right .appraise ul {
+  margin: 0%;
+  margin-right: 25px;
+}
+
+.look .modal-right .appraise span::before {
+  font-size: 18px;
+  color: #a1a1a1;
+}
+
+.look .modal-right .appraise span.liang::before {
+  color: rgb(246, 102, 63);
+}
+
+.look .modal-right .appraise > span {
+  font-size: 14px;
+  font-weight: 300;
+  color: #a39f9f;
+  line-height: 26px;
+}
+
+.look .modal-right .price {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #4a4a4a;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.look .modal-right p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #a39f9f;
+  font-weight: 300;
+  padding-right: 110px;
+}
+
+.look h6 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.look .product-color h6 {
+  padding-right: 20px;
+}
+
+.look .product-color .color-all span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.look .product-color .color-all span:nth-child(1) {
+  background-color: rgb(162, 103, 73);
+}
+
+.look .product-color .color-all span:nth-child(2) {
+  background-color: rgb(168, 55, 22);
+}
+
+.look .product-size ul {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.look .product-size ul li {
+  display: inline-block;
+  font-size: 11px;
+  line-height: 28px;
+  color: #7d7d7d;
+  border: 1px solid rgb(235, 235, 235);
+  width: 38px;
+  height: 28px;
+  text-align: center;
+}
+
+.look .product-size ul li.active {
+  background-color: rgb(255, 82, 53);
+  border-color: rgb(235, 235, 235);
+  color: #ffffff;
+}
+
+.look .product-count {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.look .product-count .quty {
+  border: 1px solid rgb(215, 215, 215);
+  width: 118px;
+  height: 43px;
+  line-height: 38px;
+  text-align: center;
+  color: #7c7a7a;
+}
+
+.look .product-count .quty input {
+  text-align: center;
+  width: 49px;
+  border: none;
+  outline: none;
+}
+
+.look .add {
+  margin: 0 20px;
+}
+
+.look .add .trendsBtn-fize {
+  height: 42px;
+  line-height: 42px;
+}
+
+.look .add a {
+  height: 42px;
+  line-height: 42px;
+}
+
+.look .share {
+  line-height: 42px;
+}

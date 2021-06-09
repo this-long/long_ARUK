@@ -1,0 +1,99 @@
+.wishlist .wishlist-main {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+.wishlist .wishlist-main .th {
+  border-bottom: 1px solid #dee2e6;
+}
+.wishlist .wishlist-main .table-title > div > span {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #292929;
+  line-height: 26px;
+  letter-spacing: 1px;
+  padding: 12px 12px 12px 0;
+}
+.wishlist .wishlist-main .th > div:first-child {
+  width: 485px;
+}
+.wishlist .wishlist-main .th > div:nth-child(2) {
+  width: 188px;
+}
+.wishlist .wishlist-main .th > div:last-child {
+  width: 496px;
+}
+.wishlist .wishlist-main .table-main .table-th > div {
+  padding: 30px 12px 30px 0;
+}
+.wishlist .wishlist-main .table-main .table-th > div .thingName {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30px;
+}
+.wishlist .wishlist-main .table-main .table-th > div .thingName a {
+  transition: all 0.5s;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+  font-weight: 500;
+}
+.wishlist .wishlist-main .table-main .table-th > div .thingName a:hover {
+  color: rgb(255, 82, 53);
+}
+.wishlist .wishlist-main .table-main .table-th > div span {
+  display: block;
+  font-size: 16px;
+  line-height: 28px;
+  color: #555555;
+  font-weight: 300;
+  padding-top: 50px;
+}
+.wishlist .wishlist-main .table-main .table-th > div:last-child {
+  justify-content: space-between;
+}
+.wishlist .wishlist-main .table-main .table-th > div:last-child a {
+  transition: all 0.3s;
+  background-color: rgb(255, 82, 53);
+  height: 45px;
+  width: 160px;
+  line-height: 47px;
+  font-size: 14px;
+  color: #fefefe;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  border-radius: 45px;
+  border: 1px solid rgb(255, 82, 53);
+}
+.wishlist .wishlist-main .table-main .table-th > div:last-child a:hover {
+  background-color: #fefefe;
+  color: rgb(255, 82, 53);
+  border: 1px solid rgb(255, 82, 53);
+}
+.wishlist .wishlist-main .table-main .table-th > div:last-child .remove {
+  transition: all 0.3s;
+  text-align: center;
+  border: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 7px 0px rgba(255, 82, 53, 0.09);
+  color: #555555;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.wishlist .wishlist-main .table-main .table-th > div:last-child > div {
+  padding-top: 40px;
+}
+.wishlist .wishlist-main .table-main .table-th > div:last-child .remove:hover {
+  background-color: rgb(255, 82, 53);
+  color: #f7f7f7;
+}

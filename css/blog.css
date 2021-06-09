@@ -1,0 +1,58 @@
+.blog .newsAll {
+  width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding-top: 120px;
+}
+/* 主体内容 */
+
+.blog .newsAll .new-thing {
+  width: 400px;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+.blog .newsAll .new-thing .new-item {
+  width: 370px;
+  height: 350px;
+  overflow: hidden;
+}
+.blog .newsAll .new-thing .new-item img {
+  width: 370px;
+  height: auto;
+  transition: all 0.3s;
+}
+.blog .newsAll .new-thing span {
+  display: block;
+  font-size: 12px;
+  color: #9fa4af;
+  padding-top: 25px;
+}
+.blog .newsAll .new-thing a.about {
+  transition: all 0.5s;
+  display: block;
+  padding-top: 5px;
+  font-size: 18px;
+  color: #292929;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.blog .newsAll .new-thing a.about:hover {
+  color: #ff5235;
+}
+.blog .newsAll .new-thing .xiantiaoLi a {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #9fa4af;
+}
+.blog .newsAll .new-thing .xiantiaoLi a:hover {
+  color: #9fa4af !important;
+}
+.blog .xiantiaoLi a .xian {
+  background-color: #9fa4af;
+}
+/* 分页器 */
+.blog .blog-paper {
+  margin-top: 25px;
+  margin-bottom: 105px;
+}
